@@ -1,0 +1,51 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "cssnano": {
+    "preset": "advanced"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@fancyapps/ui": "^4.0.31",
+    "autoprefixer": "^10.0.1",
+    "browser-sync": "^2.27.10",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^2.0.1",
+    "postcss": "^8.4.17",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-animation": "^0.0.12",
+    "postcss-assets": "^5.0.0",
+    "postcss-bem": "^0.4.1",
+    "postcss-calc": "^8.2.4",
+    "postcss-font-magician": "^3.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^6.0.0",
+    "postcss-preset-env": "^7.8.2",
+    "postcss-sort-media-queries": "^4.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "postcss-scss": "^4.0.5",
+    "tiny-slider": "^2.9.4"
+  }
+}

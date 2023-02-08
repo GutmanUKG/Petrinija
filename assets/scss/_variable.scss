@@ -1,0 +1,66 @@
+$size_70: calc( (100vw - 320px)/(1920 - 320) * (70 - 26) + 23px);
+$size_16: 16px;
+$size_52: 52px;
+$size_14 : 14px;
+$size_20: 20px;
+$size_40: 40px;
+$size_32: 32px;
+$hover-color: #00AAFF;
+.btn-login{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $size_16;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 12px 32px;
+  box-sizing: border-box;
+  background: #2258C4;
+  border-radius: 4px;
+  transition: .3s all;
+  &:hover{
+    background: #00AAFF !important;
+    color: #fff !important;
+  }
+}
+
+.btn-more{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $size_14;
+  line-height: 20px;
+  color: #2258C4;
+  margin: 0;
+  padding: 0;
+
+}
+
+.btn-more-link{
+  padding: 12px 43px;
+  box-sizing: border-box;
+  background: #2258C4;
+  border-radius: 48px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $size_16;
+  line-height: 24px;
+  color: #FFFFFF;
+  &:hover{
+    background: $hover-color !important;
+    color: #fff !important;
+  }
+}
+
+.section-title{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: $size_40;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.6px;
+  color: #223A65;
+  padding-bottom: 60px;
+}
