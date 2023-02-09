@@ -314,6 +314,13 @@ section.banner .banner-text h2{
   }
 
 .cards .cards-list .cards-list-item{
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+
+    }
+
+.cards .cards-list .cards-list-item{
       background: rgba(247, 247, 248, 1);
       border-radius: 12px;
       padding: 32px;
@@ -325,9 +332,6 @@ section.banner .banner-text h2{
       overflow: hidden;
       height: 100%;
       min-height: 320px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -797,11 +801,9 @@ footer .footer-copy{
 }
 
 @media (max-width: 520px){
-      .cards .cards-list .cards-list-item{
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-      }
+  .header-row{
+    padding: 26px 0;
+  }
       .cards .cards-list .cards-list-item{
         height: 100vw;
       }

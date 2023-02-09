@@ -75,11 +75,13 @@
   }
 }
 @media (max-width: 520px){
+  .header-row{
+    padding: 26px 0;
+  }
   .cards{
     .cards-list{
       .cards-list-item{
         height: 100vw;
-        display: flex !important;
       }
     }
   }

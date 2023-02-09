@@ -69,11 +69,9 @@
         }
 }
 @media (max-width: 520px){
-      .cards .cards-list .cards-list-item{
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-      }
+  .header-row{
+    padding: 26px 0;
+  }
       .cards .cards-list .cards-list-item{
         height: 100vw;
       }
