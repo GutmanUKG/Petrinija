@@ -1,11 +1,11 @@
 $size_70: calc( (100vw - 320px)/(1920 - 320) * (70 - 26) + 23px);
-$size_16: 16px;
-$size_52: 52px;
+$size_16 : calc( (100vw - 320px)/(1920 - 320) * (16 - 14) + 12px);
+$size_52: calc( (100vw - 320px)/(1920 - 320) * (52 - 32) + 30px);
 $size_14 : 14px;
 $size_20: 20px;
-$size_40: 40px;
-$size_32: 32px;
+$size_40: calc( (100vw - 320px)/(1920 - 320) * (40 - 32) + 30px);
 $hover-color: #00AAFF;
+
 .btn-login{
   font-family: 'Inter',sans-serif;
   font-style: normal;
@@ -16,7 +16,7 @@ $hover-color: #00AAFF;
   padding: 12px 32px;
   box-sizing: border-box;
   background: #2258C4;
-  border-radius: 4px;
+  border-radius: 48px;
   transition: .3s all;
   &:hover{
     background: #00AAFF !important;

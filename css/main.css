@@ -65,14 +65,14 @@
   font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: calc(0.125vw + 11.6px);
   line-height: 24px;
   color: #FFFFFF;
   padding: 12px 32px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #2258C4;
-  border-radius: 4px;
+  border-radius: 48px;
   -webkit-transition: .3s all;
   transition: .3s all;
 }
@@ -103,7 +103,7 @@
   font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: calc(0.125vw + 11.6px);
   line-height: 24px;
   color: #FFFFFF;
 }
@@ -117,7 +117,7 @@
   font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: calc(0.5vw + 28.4px);
   line-height: 52px;
   text-align: center;
   letter-spacing: -0.6px;
@@ -128,11 +128,11 @@
 html,
 body{
   font-family: 'Inter',sans-serif;
+  overflow-x: hidden;
 }
 
 .header-row{
-  padding-top: 48px ;
-  padding-bottom: 48px;
+  padding: 48px 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,7 +174,7 @@ body{
         font-family: 'Inter',sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: calc(0.125vw + 11.6px);
         line-height: 24px;
         color: #FFFFFF;
         position: relative;
@@ -227,7 +227,7 @@ body{
           font-family: 'Inter',sans-serif;
           font-style: normal;
           font-weight: 500;
-          font-size: 16px;
+          font-size: calc(0.125vw + 11.6px);
           line-height: 24px;
           color: #FFFFFF;
           position: relative;
@@ -248,6 +248,14 @@ body{
             -webkit-transform: translateY(-100%);
                     transform: translateY(-100%);
           }
+
+.header-row .header-burger{
+    width: 44px;
+    height: 44px;
+    background: url("../assets/sprite/sprite.svg#b-btn") center/cover no-repeat;
+    cursor: pointer;
+    display: none;
+  }
 
 section.banner{
   background: url("../assets/imgs/header_bg.png")top/cover no-repeat;
@@ -270,7 +278,7 @@ section.banner .banner-text h1{
       font-family: 'Inter',sans-serif;
       font-style: normal;
       font-weight: 600;
-      font-size: 52px;
+      font-size: calc(1.25vw + 26px);
       line-height: 64px;
       text-align: center;
       letter-spacing: -0.6px;
@@ -282,7 +290,7 @@ section.banner .banner-text h2{
       font-family: 'Inter',sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
+      font-size: calc(0.125vw + 11.6px);
       line-height: 27px;
       text-align: center;
       letter-spacing: 0.18px;
@@ -306,7 +314,7 @@ section.banner .banner-text h2{
   }
 
 .cards .cards-list .cards-list-item{
-      background: rgba(247, 247, 248, 0.92);
+      background: rgba(247, 247, 248, 1);
       border-radius: 12px;
       padding: 32px;
       width: 33.33333%;
@@ -411,7 +419,7 @@ section.products .products-list .products-item .products-item-text h3 a{
             font-family: 'Inter',sans-serif;
             font-style: normal;
             font-weight: 600;
-            font-size: 40px;
+            font-size: calc(0.5vw + 28.4px);
             line-height: 48px;
             letter-spacing: -0.6px;
             color: #223A65;
@@ -425,7 +433,7 @@ section.products .products-list .products-item .products-item-text p{
           font-family: 'Inter',sans-serif;
           font-style: normal;
           font-weight: 400;
-          font-size: 16px;
+          font-size: calc(0.125vw + 11.6px);
           line-height: 28px;
           letter-spacing: 0.18px;
           color: #696969;
@@ -487,7 +495,7 @@ section.news .news-list .news-item .news-descr{
         font-family: 'Inter',sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: calc(0.125vw + 11.6px);
         line-height: 32px;
         letter-spacing: 0.18px;
         color: #696969;
@@ -522,8 +530,8 @@ footer .footer-menu ul li{
 footer .footer-menu ul li a{
           font-family: 'Inter',sans-serif;
           font-style: normal;
-          font-weight: 600;
-          font-size: 16px;
+          font-weight: 500;
+          font-size: calc(0.125vw + 11.6px);
           line-height: 24px;
           color: #FFFFFF;
           text-decoration: none;
@@ -549,7 +557,7 @@ footer .footer-info{
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: calc(0.125vw + 11.6px);
     line-height: 32px;
     letter-spacing: 0.18px;
     color: rgba(255, 255, 255, 0.5);
@@ -559,7 +567,7 @@ footer .footer-info span{
       font-family: 'Inter',sans-serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: calc(0.125vw + 11.6px);
       line-height: 24px;
       letter-spacing: -0.6px;
       color: #FFFFFF;
@@ -572,7 +580,7 @@ footer .footer-info a{
       font-style: normal;
       text-decoration: none;
       font-weight: 400;
-      font-size: 16px;
+      font-size: calc(0.125vw + 11.6px);
       line-height: 32px;
       letter-spacing: 0.18px;
       color: rgba(255, 255, 255, 0.5);
@@ -583,7 +591,234 @@ footer .footer-copy{
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: calc(0.125vw + 11.6px);
     letter-spacing: 0.18px;
     color: rgba(255, 255, 255, 0.75);
   }
+
+.burger-menu{
+  padding: 100px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #101D33;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  width: 33.33333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 500;
+}
+
+.burger-menu.active{
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+
+.burger-menu .top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+.burger-menu .top .burger-lang{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap: 27px;
+    }
+
+.burger-menu .top .burger-lang a{
+        display: block;
+        text-decoration: none;
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+.burger-menu .top .burger-lang a.active{
+          color: #FFFFFF;
+        }
+
+.burger-menu .top .burger-close{
+      display: block;
+      width: 44px;
+      height: 44px;
+      background: url("../assets/sprite/sprite.svg#c-btn") center/cover no-repeat;
+    }
+
+.burger-menu ul{
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 24px;
+  }
+
+.burger-menu ul li{
+      list-style: none;
+    }
+
+.burger-menu ul li a{
+        text-decoration: none;
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+
+.burger-menu .btn-more{
+    background: #2258C4;
+    color: #fff;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 12px 80px;
+    border-radius: 48px;
+    margin: 0 auto;
+  }
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 499;
+  display: none;
+}
+
+.overlay.active{
+    display: block;
+  }
+
+@media (max-width: 1200px){
+  .header-row{
+    padding: 48px 0;
+  }
+}
+
+@media (max-width: 1000px){
+    .header-row .header-toggle{
+      display: none;
+    }
+    .header-row .header-menu{
+      display: none;
+    }
+    .header-row .header-burger{
+      display: block;
+    }
+        section.products .products-list .products-item .products-item-text{
+          padding: 30px 40px;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+        }
+          section.products .products-list .products-item .products-item-text h3{
+            margin-bottom: 20px;
+            //margin-top: 30px;
+          }
+          section.products .products-list .products-item .products-item-text p{
+            line-height: 24px;
+          }
+        section.products .products-list .products-item .products-item-img{
+          height: 410px;
+        }
+}
+
+@media (max-width: 767px){
+  .footer-row{
+    gap: 30px;
+  }
+    .footer-row .footer-menu{
+      width: calc(50% - 15px);
+    }
+    .footer-row .footer-info{
+      width: calc(50% - 15px);
+    }
+  .products-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px;
+  }
+      .products-list .products-item .products-item-text{
+        padding: 32px 15px !important;
+      }
+      .products-list .products-item .products-item-text{
+        width: 100%;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+      }
+      .products-list .products-item .products-item-img{
+        width: 100%;
+        -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+                order: 0;
+      }
+        section.news .news-list .news-item img{
+          height: 250px;
+        }
+}
+
+@media (max-width: 520px){
+      .cards .cards-list .cards-list-item{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+      }
+      .cards .cards-list .cards-list-item{
+        height: 100vw;
+      }
+  .burger-menu{
+    width: 80%;
+  }
+  .section-title{
+    padding-bottom: 40px;
+  }
+  section.news{
+    margin-top: 80px;
+    padding-top: 52px;
+  }
+       section.news .news-list .news-item .news-descr{
+         line-height: 28px;
+       }
+      section.banner .banner-text h1{
+      line-height: 40px;
+      }
+}

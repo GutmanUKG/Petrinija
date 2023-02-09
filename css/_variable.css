@@ -65,14 +65,14 @@
   font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: calc(0.125vw + 11.6px);
   line-height: 24px;
   color: #FFFFFF;
   padding: 12px 32px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #2258C4;
-  border-radius: 4px;
+  border-radius: 48px;
   -webkit-transition: .3s all;
   transition: .3s all;
 }
@@ -103,7 +103,7 @@
   font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: calc(0.125vw + 11.6px);
   line-height: 24px;
   color: #FFFFFF;
 }
@@ -117,7 +117,7 @@
   font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: calc(0.5vw + 28.4px);
   line-height: 52px;
   text-align: center;
   letter-spacing: -0.6px;
